@@ -1,0 +1,26 @@
+.admin {
+  text-align: center;
+  .btn_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    button {
+      background-color: #70b8f7;
+      color: #fff;
+      text-transform: none;
+    }
+    .add_admin {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      p {
+        font-weight: bold;
+      }
+    }
+  }
+  .subpage_wrapper {
+    margin-top: 20px;
+    text-align: left;
+  }
+}

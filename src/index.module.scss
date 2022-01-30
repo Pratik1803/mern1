@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Dongle", sans-serif;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+.universal_wrapper {
+  width: 90vw;
+  max-width: 1140px;
+  margin: 10px auto;
+  p {
+    font-size: 20px;
+  }
+}

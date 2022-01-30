@@ -1,0 +1,25 @@
+.contact {
+  width: 100%;
+  min-height: calc(100vh - 65px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  form {
+    width: fit-content;
+    padding: 10px 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    h1 {
+      font-size: 48px;
+    }
+    .bottom_btns {
+      margin: 20px 0px 10px 0px;
+      button {
+        text-transform: none;
+        background-color: #70b8f7;
+        padding: 5px 20px;
+        color: #fff;
+      }
+    }
+  }
+}
